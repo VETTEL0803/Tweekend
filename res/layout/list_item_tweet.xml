@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/icon"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+		android:layout_alignLeft="@+id/name"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/screen_name"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/via"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/time"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/photo4"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/rt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/via"
+        android:layout_marginLeft="300sp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="9dp" />
+
+    <TextView
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rt"
+        android:layout_alignBottom="@+id/rt"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@+id/rt"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="9dp" />
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/photo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/text"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/photo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/photo1"
+        android:layout_marginLeft="20dp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/photo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/photo2"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/photo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/photo3"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+"
+
+</RelativeLayout>

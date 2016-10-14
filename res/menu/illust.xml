@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tweekend.IllustActivity" >
+"
+    <item
+        android:id="@+id/menu_change_color"
+        android:icon="@drawable/ic_action_color"
+        android:orderInCategory="400"
+        android:showAsAction="always"
+        android:title="色変更"/>
+    <item
+        android:id="@+id/menu_eraser"
+        android:icon="@drawable/ic_action_eraser"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="消しゴム"/>
+    <item
+        android:id="@+id/menu_paint"
+        android:icon="@drawable/ic_action_paint"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="ペン"/>
+
+</menu>

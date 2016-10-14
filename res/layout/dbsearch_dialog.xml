@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dbsearch_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tweet内容" />
+
+    <EditText
+        android:id="@+id/tweet_text_db"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/boolean_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画像があるコンテンツのみ表示" />
+
+    <RadioGroup
+        android:id="@+id/sort_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        >
+        <RadioButton
+        android:id="@+id/sort_button_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="昇順" />
+
+        <RadioButton
+        android:id="@+id/sort_button_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="降順" />
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/select_calender_start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="開始" />"
+
+    <TextView
+        android:id="@+id/select_calender_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/select_calender_end_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="終了" />
+
+    <TextView
+        android:id="@+id/select_calender_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

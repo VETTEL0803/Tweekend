@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="seb.vettel.illusttweet.MentionActivity" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="400"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_tweet"
+        android:icon="@drawable/ic_action_compose"
+        android:orderInCategory="500"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_illust_tweet"
+        android:icon="@drawable/ic_action_illust"
+        android:orderInCategory="450"
+        android:showAsAction="always"/>
+
+</menu>

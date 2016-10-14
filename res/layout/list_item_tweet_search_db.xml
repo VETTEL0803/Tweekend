@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/name_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox_db"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/checkBox_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/screen_name_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_db"
+		android:layout_alignLeft="@+id/name_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/text_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/screen_name_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/time_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/photo4_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp"
+        android:textSize="8dp" />
+
+    <ImageView
+        android:id="@+id/photo1_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/text_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:id="@+id/photo2_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/photo1_db"
+        android:layout_marginLeft="20dp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:id="@+id/photo3_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/photo2_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:id="@+id/photo4_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_db"
+        android:layout_below="@+id/photo3_db"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="true" />
+
+</RelativeLayout>

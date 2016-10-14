@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">めう</string>
+    <string name="app_name2">HOME</string>
+    <string name="mention">リプライ</string>
+    <string name="action_settings">Settings</string>
+    <string name="twitter_consumer_key">HX07TM7JUaBP74f3DYxgvtrP2</string>
+    <string name="twitter_consumer_secret">Yiod60PWlNKoTfgSFSsd0qhCIxESeGqmSdsKrSs9nrrbc14q64</string>
+    <string name="twitter_oauth">Twitter認証</string>
+    <string name="twitter_callback_url">vettelthf1://twitter</string>
+    <string name="menu_refresh">更新</string>
+    <string name="menu_tweet">つぶやく</string>
+    <string name="title_activity_illust">IllustActivity</string>
+    <string name="illust_tweet">イラストツイート</string>
+    <string name="illust">手描きツイ</string>
+    <string name="action_setting">Setteing</string>
+
+</resources>
